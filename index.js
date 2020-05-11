@@ -26,7 +26,10 @@ router.post('/notify', async (ctx, next) => {
     const doc = ctx.request.body.data;
     //让语雀webhook通知返回
     ctx.response.body = "";
-    
+    console.log(doc.title);
+    //忽略掉还在编辑得文章 或者 其它意外情况下产生的文章
+    if(!doc.title.includes("/"))return;
+
     const article = praseDoc(doc);
     //添加到bmob数据库
     try {

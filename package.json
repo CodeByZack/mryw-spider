@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "follow-redirects": "^1.11.0",
+    "follow-redirects": "^1.14.8",
     "hydrogen-js-sdk": "^1.7.0",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",

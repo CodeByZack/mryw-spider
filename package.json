@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "follow-redirects": "^1.11.0",
     "hydrogen-js-sdk": "^1.7.0",
     "koa": "^2.11.0",
